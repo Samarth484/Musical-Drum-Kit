@@ -1,0 +1,106 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/50/d1/6e/50d16e3e9e66e921f951f4850230fb7c.png);
+  /* background-image: url(https://c.wallhere.com/photos/3f/36/abstract-1385755.jpg!d); */
+
+  text-align: center;
+  /* background-color:#116979 ; */
+  /* #3b6978 */
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+.drum:hover{
+  color: #f1fa3c;
+}
+footer {
+  color: #DBEDF3;
+  font-family: 'Sacramento', cursive;
+  font-size: 1.5rem;
+}
+
+.w {
+background-image: url(images/tom1.png);
+}
+
+.a {
+background-image: url(images/tom2.png);
+}
+
+.s {
+background-image: url(images/tom3.png);
+}
+
+.d {
+background-image: url(images/tom4.png);
+}
+
+.j {
+background-image: url(images/snare.png);
+}
+
+.k {
+background-image: url(images/crash.png);
+}
+
+.l {
+background-image: url(images/kick.png);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.shiva{
+  color: white;
+  font-family: 'Sacramento', cursive;
+  text-decoration-style: none;
+}
+.line{
+  color: yellow;
+}
+.shiva:hover{
+
+  color:yellow;
+  font-weight: bold;
+  text-transform: full-width;
+  text-emphasis-style: sesame;
+}
+.red {
+  color: red;
+}
+footer:hover{
+  font-size: 2.5rem;
+  font-style: oblique;
+}
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  color:green;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
